@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tour Guide App- Singapore</string>
+    <string name="food_specialities">Food Specialities</string>
+    <string name="nature_and_wildlife">Nature and Wildlife</string>
+    <string name="recreation_and_leisure">Recreation and Leisure</string>
+    <string name="shopping_centres">Shopping Centres</string>
+    <string name="historical_attractions">Historical Attractions</string>
+</resources>

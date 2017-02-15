@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.tourguideapp_singapore.MainActivity">
+
+    <TextView
+        android:id="@+id/category_food_specialities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_food_specialities"
+        android:text="@string/food_specialities"
+        style="@style/CategoryStyle"/>
+
+    <TextView
+        android:id="@+id/category_nature_and_wildlife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_food_specialities"
+        android:background="@color/category_nature_and_wildlife"
+        android:text="@string/nature_and_wildlife"
+        style="@style/CategoryStyle"/>
+
+    <TextView
+        android:id="@+id/category_recreation_and_leisure"
+        android:text="@string/recreation_and_leisure"
+        android:background="@color/category_recreation_and_leisure"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_nature_and_wildlife"/>
+
+    <TextView
+        android:id="@+id/category_shopping_centres"
+        android:text="@string/shopping_centres"
+        android:background="@color/category_shopping_centres"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_recreation_and_leisure"/>
+
+    <TextView
+        android:id="@+id/category_historical_attractions"
+        android:text="@string/historical_attractions"
+        android:background="@color/category_historical_attractions"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_shopping_centres"/>
+</RelativeLayout>
