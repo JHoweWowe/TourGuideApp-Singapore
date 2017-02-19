@@ -24,8 +24,8 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="24dp"
-        android:layout_height="24dp" />
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
 
     <RelativeLayout
         android:id="@+id/text_container"
@@ -38,15 +38,16 @@
         <TextView
             android:id="@+id/attraction_title_text_view"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="20dp"
             android:layout_alignParentLeft="true"
             android:gravity="bottom"
             tools:text="Title of Attraction" />
 
         <TextView
+            android:paddingTop="8dp"
             android:id="@+id/attraction_description_text_view"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_alignParentLeft="true"
             android:layout_below="@id/attraction_title_text_view"
             tools:text="Description" />
@@ -54,7 +55,7 @@
         <TextView
             android:id="@+id/attraction_location_text_view"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_alignParentLeft="true"
             android:layout_below="@id/attraction_description_text_view"
             tools:text="Location" />

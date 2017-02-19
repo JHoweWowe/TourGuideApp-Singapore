@@ -5,4 +5,61 @@
     <string name="recreation_and_leisure">Recreation and Leisure</string>
     <string name="shopping_centres">Shopping Centres</string>
     <string name="historical_attractions">Historical Attractions</string>
+
+    <!-- Food Specialities -->
+    <string name="chicken_rice_name">Chicken Rice:</string>
+    <string name="chicken_rice_description">Originated from Hainan, this is definitely one luscious dish</string>
+    <string name="chicken_rice_location">Where you can eat it: Tian Tian Chicken Rice</string>
+    <string name="chinese_carrot_cake_name">Chinese Carrot Cake:</string>
+    <string name="chinese_carrot_cake_description">This is not the Western-style dessert you might be seeking for</string>
+    <string name="chinese_carrot_cake_location">Where you can eat it: Seng Heng Carrot Cake"</string>
+    <string name="laksa_name">Laksa:</string>
+    <string name="laksa_description">Loved by many locals and foreigners</string>
+    <string name="laksa_location">Where you can eat it: 328 Katong Laksa</string>
+
+    <!-- Nature & Wildlife -->
+    <string name="gardens_by_the_bay_name">Gardens by the Bay:</string>
+    <string name="gardens_by_the_bay_description">What a beautiful paradise it is!</string>
+    <string name="gardens_by_the_bay_location">Location: Southern Singapore</string>
+    <string name="st_john_island_name">St John Island:</string>
+    <string name="st_john_island_description">A hidden jewel within Southeast Asia!</string>
+    <string name="st_john_island_location">Located about 6.5 km to southern part of mainland Singapore</string>
+    <string name="pulau_ubin_name">Pulau Ubin:</string>
+    <string name="pulau_ubin_description">It was once a quarantine centre for cholera cases in the 19th century</string>
+    <string name="pulau_ubin_location">A 15 minute boat ride from Tanah Merah Ferry Terminal</string>
+
+    <!-- Recreation & Leisure -->
+    <string name="sentosa_name">Sentosa:</string>
+    <string name="sentosa_description">Known for its fake sand and Universal Studios Singapore</string>
+    <string name="sentosa_location">Location: North of St John Island, but south of mainland Singapore</string>
+    <string name="east_coast_park_name">East Coast Park:</string>
+    <string name="east_coast_park_description">A long stretch of pine trees and cycling</string>
+    <string name="east_coast_park_location">Location: South-eastern section of Singapore</string>
+    <string name="clarke_quay_name">Clarke Quay:</string>
+    <string name="clarke_quay_description">Filled with night clubs and bars, it is certainly a sight for tourists!</string>
+    <string name="clarke_quay_location">Location: Central Singapore</string>
+
+    <!-- Shopping Centers -->
+    <string name="nex_name">NEX:</string>
+    <string name="nex_description">The total retail area of this mall is 600 thousand square feet</string>
+    <string name="nex_location">Location: 23 Serangoon Central, Singapore 556083</string>
+    <string name="star_vista_name">Star Vista:</string>
+    <string name="star_vista_description">The mall certainly does not look like a star at all!</string>
+    <string name="star_vista_location">Location: 1 Vista Exchange Green, Singapore 138617</string>
+    <string name="vivo_city_name">VivoCity:</string>
+    <string name="vivo_city_description">The largest mall in Singapore since 2006!</string>
+    <string name="vivo_city_location">Location: 1 Harbourfront Walk, Singapore 098585</string>
+
+    <!-- Historical Attractions -->
+    <string name="national_museum_singapore_name">National Museum of Singapore:</string>
+    <string name="national_museum_singapore_description">Well-known for its fine architecture and art</string>
+    <string name="national_museum_singapore_location">Location: 93 Stamford Road, Singapore 178897</string>
+    <string name="asian_civilisations_museum_name">Asian Civilisations Museum:</string>
+    <string name="asian_civilisations_museum_description">It showcases cultural art from Singapore</string>
+    <string name="asian_civilisations_museum_location">Location: 1 Empress Pl, Singapore 179555</string>
+    <string name="bukit_chandu_name">Bukit Chandu War Memorial:</string>
+    <string name="bukit_chandu_description">One of the last remaining bases used for British soldiers during WW2</string>
+    <string name="bukit_chandu_location">Location: 31 - K Pepys Road, Singapore 118458</string>
+
+
 </resources>

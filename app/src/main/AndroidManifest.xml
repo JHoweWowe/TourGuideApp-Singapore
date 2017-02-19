@@ -15,11 +15,52 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FoodSpecialitiesActivity" />
-        <activity android:name=".NatureAndWildlifeActivity" />
-        <activity android:name=".RecreationandLeisureActivity" />
-        <activity android:name=".ShoppingCentresActivity" />
-        <activity android:name=".HistoricalAttractionsActivity"></activity>
+        <activity
+            android:name=".FoodSpecialitiesActivity"
+            android:label="@string/food_specialities"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".NatureAndWildlifeActivity"
+            android:label="@string/nature_and_wildlife"
+            android:parentActivityName=".MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".RecreationandLeisureActivity"
+            android:label="@string/recreation_and_leisure"
+            android:parentActivityName=".MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ShoppingCentresActivity"
+            android:label="@string/food_specialities"
+            android:parentActivityName=".MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".HistoricalAttractionsActivity"
+            android:label="@string/food_specialities"
+            android:parentActivityName=".MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
+        </activity>
+
     </application>
 
 </manifest>

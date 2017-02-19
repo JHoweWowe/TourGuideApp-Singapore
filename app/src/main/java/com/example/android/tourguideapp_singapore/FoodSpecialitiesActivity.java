@@ -15,9 +15,9 @@ public class FoodSpecialitiesActivity extends AppCompatActivity {
 
         // Create a list of Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Chicken Rice", "Originated from Hainan, this lushious dish quickly became popular worldwide", "Location found: Tian Tian Chicken Rice", R.drawable.chicken_rice));
-        attractions.add(new Attraction("Chinese Carrot Cake", "This isn't the Western-style dessert you might be seeking for", "Location found: Seng Heng Carrot Cake", R.drawable.chinese_carrot_cake));
-        attractions.add(new Attraction("Laksa", "Loved by many locals and foreigners", "Location found: 328 Katong Laksa", R.drawable.laksa));
+        attractions.add(new Attraction(R.string.chicken_rice_name, R.string.chicken_rice_description, R.string.chicken_rice_location, R.drawable.hainanese_chicken_rice));
+        attractions.add(new Attraction(R.string.chinese_carrot_cake_name, R.string.chinese_carrot_cake_description, R.string.chinese_carrot_cake_location, R.drawable.chinese_black_carrot_cake));
+        attractions.add(new Attraction(R.string.laksa_name, R.string.laksa_description, R.string.laksa_location, R.drawable.laksa_dish));
 
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s. The
         // adapter knows how to create list items for each item in the list.

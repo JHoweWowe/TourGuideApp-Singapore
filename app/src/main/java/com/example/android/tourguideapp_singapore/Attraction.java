@@ -9,13 +9,13 @@ package com.example.android.tourguideapp_singapore;
 public class Attraction {
 
     /** Default name for the Attraction */
-    private String mAttractionName;
+    private int mAttractionName;
 
     /** Description of the Attraction */
-    private String mAttractionDescription;
+    private int mAttractionDescription;
 
     /** Location of the Attraction */
-    private String mAttractionLocation;
+    private int mAttractionLocation;
 
     /** Image resource ID for the word */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
@@ -31,7 +31,7 @@ public class Attraction {
      * @param attractionLocation shows the address of the attraction
      * @param imageResourceID is the resource ID for the image corresponding to the attraction
      */
-    public Attraction(String attractionName, String attractionDescription, String attractionLocation, int imageResourceID) {
+    public Attraction(int attractionName, int attractionDescription, int attractionLocation, int imageResourceID) {
         mAttractionName = attractionName;
         mAttractionDescription = attractionDescription;
         mAttractionLocation = attractionLocation;
@@ -41,13 +41,13 @@ public class Attraction {
     /**
      * Get the name of the Attraction
      */
-    public String getAttractionName() {
+    public int getAttractionName() {
         return mAttractionName;
     }
     /**
      * Get the description of the Attraction
      */
-    public String getAttractionDescription() {
+    public int getAttractionDescription() {
         return mAttractionDescription;
     }
     /**
@@ -67,9 +67,8 @@ public class Attraction {
     /**
      * Return the audio resource ID of the word.
      */
-    public String getAttractionLocation() {
+    public int getAttractionLocation() {
         return mAttractionLocation;
     }
-
 
 }
